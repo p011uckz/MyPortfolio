@@ -16,12 +16,12 @@ h1{
     text-align: center;
 }
 .yellow{
-    text-align: right;
+    text-align: center;
     margin-right: 30px;
 }
 .red{
-    text-align: left;
-    color:red;
+    text-align: center;
+    color:aquamarine;
     margin-right: 30px;
     text-align: 
 }    
@@ -71,11 +71,13 @@ h1 {
 footer{
     text-align: right;
     margin-right: 30px;
+    color: aquamarine
 }
 h3{
     /* vertical-align: text-bottom; */
     text-align-last: right;
     margin-right: 30px;
+    color: aquamarine;
 }
 a{
     color: green;
