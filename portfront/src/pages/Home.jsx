@@ -21,8 +21,8 @@ color: aquamarine;
     text-align: center;
     color:aquamarine;
     margin-right: 30px;
-    text-align: 
-};
+    /* text-align:  */
+}
 
 h1 {
     text-align: center;
