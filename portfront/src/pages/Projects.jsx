@@ -13,7 +13,28 @@ color: aquamarine;
 
 /* display: flex; */
 
-h1.buttonTitle{
+h1.buttonTitle1{
+    /* color: white; */
+    /* font-weight: 900;
+    -webkit-text-stroke: 1.5px black */
+    /* outline-color: black;
+    outline-width: 300px; */
+}
+h1.buttonTitle2{
+    /* color: white; */
+    /* font-weight: 900;
+    -webkit-text-stroke: 1.5px black */
+    /* outline-color: black;
+    outline-width: 300px; */
+}
+h1.buttonTitle3{
+    /* color: white; */
+    font-weight: 900;
+    -webkit-text-stroke: 1.5px black
+    /* outline-color: black;
+    outline-width: 300px; */
+}
+h1.buttonTitle4{
     /* color: white; */
     font-weight: 900;
     -webkit-text-stroke: 1.5px black
@@ -108,7 +129,28 @@ button.wiki{
     /* background-size: cover; */
     color: #ffffff;
 }
+button.ccp{
+    background-image: url('/CCPSCREENSHOT.png');
+    background-size: 100% 100%;
+    color: #ffffff;
+}
 
+button.movieList{
+    color: transparent;
+    border-color: transparent;
+    /* -webkit-text-stroke: none; */
+    cursor: default;
+}
+button.bj{
+    color: transparent;
+    border-color: transparent;
+}
+p.bjp{
+    color: transparent;
+}
+p.movieListP{
+    color: transparent;
+}
 `
 
 let RightButtons = styled.button`
@@ -131,30 +173,32 @@ const Projects = () => {
             </Link>
         </header>
             {/* <a href=""> */}
-                <RightButtons><h1 className='buttonTitle'>Blackjack</h1></RightButtons>
+                <RightButtons className='bj'><h1 className='buttonTitle1'>Blackjack</h1></RightButtons>
             {/* </a> */}
-            <p>
+            <p className='bjp'>
                 This is a clone of the classic casino game, play against a computer dealer.
             </p>
             {/* <br></br><br></br>             */}
             
-            <p>
+            <p className='movieListP'>
             {/* <a href=""> */}
-                <RightButtons><h1 className='buttonTitle'>Movie List</h1></RightButtons>
+                <RightButtons className='movieList'><h1 className='buttonTitle2'>Movie List</h1></RightButtons>
             {/* </a> */}
                 Ever sat watching a movie or show then wonder "have I seen this"? Wonder no more, make a list of what you have and havent seen while also being able to browse a list of every move ever made. 
             </p>
             {/* <br></br><br></br> */}
-            
             <p>
-            {/* <a href=''> */}
-                <RightButtons><h1 className='buttonTitle'>Chacracter Creator Plus</h1></RightButtons>
-            {/* </a> */}
+            <a href='https://capstone-project-tau.vercel.app/'>
+                <RightButtons className='ccp'>
+                    <h1 className='buttonTitle3'>Chacracter Creator Plus</h1>
+                </RightButtons>
+            </a>
+            
                 This is a tool to create custom peices for your characters in Table-top role-playing games
             <p>
             <a href='https://marvel-wiki-project3.herokuapp.com/'>
                 <RightButtons className='wiki'>
-                    <h1 className='buttonTitle'>Marvel Wiki</h1>
+                    <h1 className='buttonTitle4'>Marvel Wiki</h1>
                 </RightButtons>
             </a>
                 <p>Like Marvel characters? Want to know all of the series and comics your favorites have appeared in?
