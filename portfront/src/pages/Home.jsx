@@ -91,6 +91,66 @@ button{
     font-size: 20px;
     /* align-items: right; */
 }
+.html{
+    background-image: url(/htmllogo2.png);
+    background-size: 25px;
+    color: transparent;
+    border: transparent;
+}
+.css{
+    background-image: url(/csslogo.png);
+    background-size: 25px;
+    color: transparent;
+    border: transparent;
+}
+.python{
+    background-image: url(/pythonlogo.png);
+    background-size: 25px;
+    color: transparent;
+    border: transparent;
+}
+.sql{
+    background-image: url(/sqllogo.png);
+    background-size: 40px;
+    color: transparent;
+    border: transparent;
+}
+.django{
+    background-image: url(/django.png);
+    background-size: 39px;
+    color: transparent;
+    border: transparent;
+}
+.javascript{
+    background-image: url(/jslogo.png);
+    background-size: 25px;
+    color: transparent;
+    border: transparent;
+}
+.express{
+    background-image: url(/nodelogo.png);
+    background-size: 25px;
+    color: transparent;
+    border: transparent;
+}
+.json{
+    /* background-image: url(/htmllogo2.png); */
+    background-size: 25px;
+    color: transparent;
+    border: transparent;
+}
+.mongo{
+    background-image: url(/mongologo.png);
+    background-size: 45px;
+    color: transparent;
+    border: transparent;
+}
+.react{
+    background-image: url(/reactlogo.png);
+    background-size: 25px;
+    color: transparent;
+    border: transparent;
+}
 `
 
 
@@ -102,15 +162,16 @@ const Home = () => {
             <h5 className='yellow'>I am a software developer</h5>
             <h4 className='red'>I can use many programming languages<br></br>
             and tools like:<br></br>
-            HTML<br></br>
-            CSS<br></br>
-            Python<br></br>
-            SQL<br></br>
-            Django<br></br>
-            JavaScript<br></br>
-            Express<br></br>
-            Json<br></br>
-            MongoDB<br></br>
+            HTML <button className='html'>html</button> <br></br>
+            CSS <button className='css'>html</button> <br></br>
+            Python <button className='python'>html</button> <br></br>
+            SQL <button className='sql'>html</button> <br></br>
+            JavaScript <button className='javascript'>html</button> <br></br>
+            React <button className='react'>html</button> <br></br>
+            Django <button className='django'>html</button> <br></br>
+            MongoDB<button className='mongo'>html</button> <br></br>
+            Express <button className='express'>html</button> <br></br>
+            {/* Json <button className='json'>html</button> */}<br></br>
 
             </h4>
         </div>
